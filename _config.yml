@@ -1,11 +1,18 @@
+# 테마 설정 (가장 중요)
 remote_theme: samarsault/plainwhite-jekyll
 
-plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
+# 블로그 기본 정보
+title: "Lee Hyungju's Blog"
+author: "dlgudwn1219"
+tagline: "CS student" # 본인의 소개글로 수정
 
+# 테마 전용 옵션
+plainwhite:
+  name: "Lee Hyungju" # 표시될 이름
+  tagline: "기록을 위한 공간"
   social_links:
-    twitter: samarsault
-    github: samarsault
-    linkedIn: in/samarsault # format: locale/username
+    github: dlgudwn1219
+    # twitter: 사용자이름
+    # linkedIn: 사용자이름
+  dark_mode: true # 다크모드 사용 여부
+  search: true    # 검색 기능 활성화
